@@ -130,6 +130,8 @@
     sheet.setName(name);
     return sheet;
   }
+ 
+  /* スプレッドシートユーザー数カウント用関数 countAllを5分に一回タイマーで回すといい感じです。 */
 
   function countUsers(){
     var sheet = SpreadsheetApp.getActive().getSheetByName("説明書");
